@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <title>Our first webpage</title>
         <link rel="a shortcut icon" href="images/favicon.png">
-    
+    <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Mike's World</h1>
+        <header class="fixed-bar">
+            <h1 class="page-title">Mike's World</h1>
         </header>
         <nav>
             <ul>
@@ -19,30 +19,27 @@
             </ul>
         </nav>
         <main>
-            <ul>
-                <li>
-                    <p>My SF City Trip</p>
-                  <div> <img src="images/sf.png" alt="An image of the San Francisco streets"></div>
-                </li>
-                <li>
-                    <p>The California Landscape</p>
-                    <div>  <img src="images/california.png" alt="An image of California streets"></div>
-                </li>
-            </ul>
-            <p>Do people like my page?</p>
+            <div class="trip-text">
+                <p>My SF City Trip</p>
+                <p>The California Landscape</p>
+            </div>
+            <div class="trip-images">
+                <img src="images/sf.png" alt="An image of the San Francisco streets">
+                <img src="images/california.png" alt="An image of California streets">
+            </div>
+            
+            <p class="feedback">Do people like my page?</p>
         </main>
         <footer>
             <div>
                 <img src="images/image-max.png" alt="A picture of Max">
-            <span>Max - Awesome page, great work, keep it up!</span>
+            <p>Max - Awesome page, great work, keep it up!</p>
            
         </div>
 
         <div>
             <img src="images/image-manu.png" alt="A picture of Manu">
-           <span>
-            Manu - Looks really nice, beautiful pictures!
-            </span>
+           <p>Manu - Looks really nice, beautiful pictures!</p>
         </div>
         </footer>
     </body>
